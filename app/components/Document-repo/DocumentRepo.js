@@ -191,7 +191,7 @@ export default function DocumentRepo() {
 
   return (
     <div className="w-full max-w-4xl mx-auto p-4">
-      <h1 className="text-2xl font-bold text-center mb-5 ">DevInsight</h1>
+      <h1 className="text-5xl font-bold text-center mb-12 ">Dev<span className='text-blue-700'>Insight</span></h1>
       
       <form onSubmit={handleSubmit} className="mb-6">
         <div className="flex gap-4 mb-4">
