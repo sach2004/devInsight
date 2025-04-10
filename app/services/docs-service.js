@@ -5,7 +5,7 @@ const groq = new Groq({
   dangerouslyAllowBrowser: true
 });
 
-export async function generateDocumentation(functionContext, model = "mixtral-8x7b-32768") {
+export async function generateDocumentation(functionContext, model = "llama-3.3-70b-versatile") {
   const prompt = `
     Generate comprehensive documentation for the following function.
     Include:
